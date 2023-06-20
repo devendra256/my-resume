@@ -1,0 +1,80 @@
+body {
+    padding: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+hr {
+    height: 1px;
+    background-color: #0346B5;
+    margin: 0px;
+}
+
+.heading, #name, hr {
+    color: #0346B5;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sub-heading {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.separate {
+    display: flex;
+    justify-content: space-between;
+}
+
+#designation {
+    font-style: italic;
+}
+
+#top-container {
+    display: grid;
+    grid-template-columns: 80% auto;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 0px;
+}
+
+#details-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#name {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#email {
+    background-color: #d5d7d8;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+#image {
+    height: 180px;
+    width: 130px;
+}
+
+.address-details {
+    display: inline;
+}
+
+.contact-details {
+    display: inline;
+}
+
+.project-titles {
+    list-style-type: none;
+}
+
+.date {
+    font-weight: normal;
+}
